@@ -1,4 +1,4 @@
-# Densenet-Tensorflow
+# [Densenet-Tensorflow](https://github.com/taki0112/Densenet-Tensorflow)
 Tensorflow implementation of [Densenet](https://arxiv.org/abs/1608.06993) using **Cifar10, MNIST**
 * The code that implements *this paper* is ***Densenet.py***
 * There is a *slight difference*, I used ***AdamOptimizer***
@@ -135,6 +135,11 @@ with tf.Session(config=tf.ConfigProto(allow_soft_placement=True)) as sess : OK
 
 ## Compare Structure (CNN, ResNet, DenseNet)
 ![compare](./assests/compare.JPG)
+
+## Implementation details in original DenseNet
+<img src=./assests/DenseNet-ImageNet.png >
+
+<img src=./assests/DenseNet-Results.png >
 
 ## Results
 * (***MNIST***) The highest test accuracy is ***99.2%*** (This result does ***not use dropout***)
